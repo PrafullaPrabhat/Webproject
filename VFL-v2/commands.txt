@@ -1,0 +1,15 @@
+install python ->
+pip install django 
+pip install pillow 
+
+python manage.py makemigrations 
+python manage.py migrate --run-syncdb // build database
+
+python manage.py createsuperuser //admin account
+
+python manage.py runserver
+
+SMTP
+
+
+https://dialogflow.cloud.google.com/
